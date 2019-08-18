@@ -2,7 +2,9 @@ import React from 'react';
 import NavBar from './NavBar' 
 import './App.css';
 import Button from 'react-bootstrap/Button';
-// import Alert from 'react-bootstrap/Alert';
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Alert from 'react-bootstrap/Alert';
+import { FaBeer } from 'react-icons/fa';
 
 function App () {
   return (
@@ -11,7 +13,8 @@ function App () {
 
       <div className="App">
       < NavBar />
-        <h1 className='primary'>James Ross</h1>
+      <Jumbotron> <h1>James Ross<FaBeer /> </h1></Jumbotron>
+        <Alert ></Alert>
         <Button variant='danger'>Hello</Button>
       </div>
 
