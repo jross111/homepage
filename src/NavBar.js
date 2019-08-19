@@ -5,15 +5,10 @@ import Nav from 'react-bootstrap/Nav'
 const NavBar = () => (
     <Nav justify variant="pills" defaultActiveKey="/home">
         <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="link-1">Option 2</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-                Disabled
-    </Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
         </Nav.Item>
     </Nav>
 
